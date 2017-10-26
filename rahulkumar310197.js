@@ -79,3 +79,6 @@ var resume = {
 };
 
 console.log(resume.personal_details.name);
+console.log(resume.extra_curricular_act.certificates[0].name);
+console.log(resume.extra_curricular_act.certificates[0].institute);
+console.log(resume.extra_curricular_act.certificates[0].year);
