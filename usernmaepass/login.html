@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <script lang="javascript">
+     var data = {  "u_name":"rahul310197" , "pass":"Rahul@31" };
+     function validate(){
+       
+        var user_name = document.getElementById("user");
+        var pass = document.getElementById("pass");
+        if(user_name.match(data["u_name"]) && pass.match(data["pass"])){
+   
+          alert("Correct use and pass");
+        }
+        else{
+          alert("Incorrect user and pass");
+        }  
+     }
+   </script> 	
+   
+			
+</head>
+<body>
+
+<form onsubmit="validate()">
+  User name:<br>
+  <input type="text" id="user" >
+  <br>
+  Last name:<br>
+  <input type="password" id="pass" >
+  <br><br>
+  
+  <input type="submit" value="submit"> 
+</form> 
+
+<p></p>
+
+</body>
+</html>

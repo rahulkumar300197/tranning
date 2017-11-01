@@ -1,8 +1,8 @@
-function urlparsing(url){     
-    url_parts = url.match(/:\/\/(.[^/]+)/)[1].split('.');
-    url_parts.shift();
-    var domain = url_parts.join('.');
-    console.log("Domain name:"+domain);   
+function url_parsing(url){  
+    url_parts=url.match(/^((http[s]?|ftp):\/)?\/?([^:\/\s]+)(:([^\/]*))?((\/[\w\/-]+)*\/)([\w\-\.]+[^#?\s]+)(\?([^#]*))?(#(.*))?$/i);
+    
+    
+    console.log(url_parts);   
 };
 
-urlparsing("http://www.abcde.com/xyz/as");
+url_parsing("http://www.example.com:123/foo/bar?fox=trot");
