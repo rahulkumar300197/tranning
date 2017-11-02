@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <script lang="javascript">
+   <script type"javascript">
      var data = {  "u_name":"rahul310197" , "pass":"Rahul@31" };
      function validate(){
-       
-        var user_name = document.getElementById("user");
-        var pass = document.getElementById("pass");
-        if(user_name.match(data["u_name"]) && pass.match(data["pass"])){
-   
-          alert("Correct use and pass");
-        }
-        else{
-          alert("Incorrect user and pass");
-        }  
-     }
+    
+       var user_name = document.getElementById("user").value;
+       var pass = document.getElementById("pass").value;
+       if(user_name.match(data["u_name"]) && pass.match(data["pass"])){
+         document.write("Correct User and Pass"); 
+         
+       }  
+       else{
+        document.write("InCorrect User or Pass"); 
+       }
+}
    </script> 	
    
 			
 </head>
 <body>
 
-<form onsubmit="validate()">
+<form   onsubmit="validate()">
   User name:<br>
   <input type="text" id="user" >
   <br>

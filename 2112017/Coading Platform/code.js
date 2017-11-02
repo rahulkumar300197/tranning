@@ -1,0 +1,14 @@
+bpA,db{Db,b
+dvdb
+sb
+sn
+sfnz
+sfn
+znf
+nzd
+nzd
+nz
+nf
+nf
+nf
+nd
