@@ -10,9 +10,7 @@ var server = http.createServer(function (req, res) {
     } else if (req.method.toLowerCase() == 'post') {
         getCode(req, res);
         displayWindow(res);
-        res.write('Hello World!');
-
-        
+  
     }
 });
 
@@ -46,8 +44,16 @@ function getCode(req, res) {
     exec('node ./code.js', function(error, stdout, stderr) {
         var stream = fs.createWriteStream("output.txt");
         stream.once('open', function(fd) {
-          fields["output"]=stdout;  
-          stream.write(stdout);
+         // fields["output"]=stdout; 
+          if(error.message.length>0)
+          {
+            stream.write(stderr);
+            fields["output"]=stderr;  
+          }
+          else
+          { stream.write(stdout);
+            fields["output"]=stdout; 
+          } 
           stream.end();
         });
         
