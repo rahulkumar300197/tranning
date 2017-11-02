@@ -2,12 +2,17 @@ var http = require('http');
 var fs = require('fs');
 var formidable = require("formidable");
 var util = require('util');
+var fields = [];
 
 var server = http.createServer(function (req, res) {
     if (req.method.toLowerCase() == 'get') {
         displayWindow(res);
     } else if (req.method.toLowerCase() == 'post') {
         getCode(req, res);
+        displayWindow(res);
+        res.write('Hello World!');
+
+        
     }
 });
 
@@ -22,9 +27,9 @@ function displayWindow(res) {
     });
 }
 
+
 function getCode(req, res) {
     
-    var fields = [];
     var form = new formidable.IncomingForm();
     
     form.on('field', function (field, value) {
@@ -36,9 +41,19 @@ function getCode(req, res) {
       stream.write(fields["code"]);
       stream.end();
     });
+
+    var exec = require('child_process').exec;
+    exec('node ./code.js', function(error, stdout, stderr) {
+        var stream = fs.createWriteStream("output.txt");
+        stream.once('open', function(fd) {
+          fields["output"]=stdout;  
+          stream.write(stdout);
+          stream.end();
+        });
+        
+    });
+    
     form.parse(req);
 }
 
-
 server.listen(7000);
-console.log("server listening on 7000");
