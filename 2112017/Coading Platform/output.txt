@@ -1,8 +1,8 @@
 /home/rahul/Desktop/tranning/2112017/Coading Platform/code.js:1
-(function (exports, require, module, __filename, __dirname) { zdb
+(function (exports, require, module, __filename, __dirname) { zns
                                                               ^
 
-ReferenceError: zdb is not defined
+ReferenceError: zns is not defined
     at Object.<anonymous> (/home/rahul/Desktop/tranning/2112017/Coading Platform/code.js:1:63)
     at Module._compile (module.js:410:26)
     at Object.Module._extensions..js (module.js:417:10)
