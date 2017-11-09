@@ -5,7 +5,7 @@ module.exports = {
         var attributes=Object.keys(sch_prop);
         var val_key = Object.keys(data);
         function contains(array, item) {
-            for (var i = 0, ln = array.length; i < ln; i++) {
+            for (var i = 0; i < array.length; i++) {``
                 if (array[i] === item) {
                     return true;
                 }
