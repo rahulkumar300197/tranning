@@ -1,0 +1,10 @@
+{
+  "properties": {
+    "name": { "type": "string" },
+    "age":{ "type": "integer", "minimum": 13 },
+    "address": { "type": "string" }
+    
+
+  },
+  "required": ["name","age"] 
+}

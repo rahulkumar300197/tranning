@@ -3,6 +3,7 @@ var fs = require("fs");
 function wtch(files)
 {   
     fs.watchFile(files, function (event, filename) {
+        
         console.log("Server stopped");
         console.log("File changed :"+files);
         console.log("Server started");

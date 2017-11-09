@@ -1,0 +1,1 @@
+{"properties":{"name":{"type":"string"},"age":{"type":"integer"},"address":{"type":"string"}},"required":["name","age"]}
