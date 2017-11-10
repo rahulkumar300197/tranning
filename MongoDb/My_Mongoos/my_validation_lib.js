@@ -27,7 +27,7 @@ module.exports = {
         }
          //check for extra data
         for(var i=0;i<val_key.length;i++){
-           if(! contains(attributes,val_key[i])){
+           if(! contains(atetributes,val_key[i])){
               console.log("You are entering extra field");
               return false;
            }   
@@ -35,7 +35,7 @@ module.exports = {
         //check data type
         for(var i=0;i<attributes.length;i++){
            var sch_field =sch_prop[attributes[i]];
-           var sch_field_key=Object.keys(sch_field);  
+           var sch_field_key=Object.keys(sch_field);
            if(typeof data[attributes[i]]!=sch_field[sch_field_key[0]]){
             console.log("Incorrect Data Type"); 
               return false;
