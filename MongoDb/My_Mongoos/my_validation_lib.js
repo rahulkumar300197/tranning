@@ -4,6 +4,7 @@ module.exports = {
         var data_rev=schema.required;
         var attributes=Object.keys(sch_prop);
         var val_key = Object.keys(data);
+
         function contains(array, item) {
             for (var i = 0; i < array.length; i++) {``
                 if (array[i] === item) {
@@ -27,7 +28,7 @@ module.exports = {
         }
          //check for extra data
         for(var i=0;i<val_key.length;i++){
-           if(! contains(atetributes,val_key[i])){
+           if(! contains(attributes,val_key[i])){
               console.log("You are entering extra field");
               return false;
            }   
