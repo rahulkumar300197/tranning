@@ -1,17 +1,18 @@
 var express=require('express');
 var app = express();
 app.use(express.static('public'));
-
+var bodyParser = require('body-parser'); 
+var urlencodeParser = bodyParser.urlencoded({extended:false});
 app.get('/form',function(req,res){
     res.sendFile(__dirname+"/"+"form.html");
 });
-app.get('/process_get',function(req,res){
+app.post('/process_post',urlencodeParser,function(req,res){
     response = {
-         first_name:req.query.user, 
-         last:req.query.last
+         first_name:req.body.user, 
+         last:req.body.last
     };
     console.log(response);
-    res.send(JSON.stringify(response));
+    res.end(JSON.stringify(response));
 });
 
 var server = app.listen(8081,function(){
