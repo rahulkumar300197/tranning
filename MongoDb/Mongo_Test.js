@@ -23,15 +23,16 @@ MongoClient.connect(url, function(err, db) {
     if (err) throw err;
     console.log("Number of documents inserted: " + res.insertedCount);
     db.close();
-  });  */
+  }); */  
 
-  db.collection("student").find({}).toArray(function(err, result) {
+  db.collection("student").find().toArray(function(err, result) {
     if (err) throw err;
-  console.log(result[0].Name);
+  console.log(result);
   
     
-    db.close();
+    
   });
+  db.close();
   
   console.log("\n");
  
