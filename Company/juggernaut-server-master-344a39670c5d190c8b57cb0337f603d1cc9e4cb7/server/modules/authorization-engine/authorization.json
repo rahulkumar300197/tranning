@@ -1,0 +1,2534 @@
+[
+    {
+        "uniqueApiPath": "put/admin/approveServiceRequest",
+        "alias": "approveServiceRequest",
+        "permissionName": "Approve Service request",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "post/admin/vehicleTypeAndCompany",
+        "alias": "vehicleTypeAndCompany",
+        "permissionName": "Add Vehicle Type and Company",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "delete/admin/deleteVehicleTypeAndCompany",
+        "alias": "deleteVehicleTypeAndCompany",
+        "permissionName": "delete Vehicle Type and Company",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "put/admin/assignDriverToServiceProvider",
+        "alias": "assignDriverToServiceProvider",
+        "permissionName": "Assigne driver to service provider",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "put/admin/blockOption",
+        "alias": "blockOption",
+        "permissionName": "Block user",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "put/admin/cancelBooking",
+        "alias": "cancelBookingByAdmin",
+        "permissionName": "Cancel Booking",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "post/admin/addCustomer",
+        "alias": "addCustomer",
+        "permissionName": "Add Customer",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "put/admin/udpateCustomer",
+        "alias": "updateCustomerByAdmin",
+        "permissionName": "Update customer",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "delete/admin/deleteUser",
+        "alias": "deleteUser",
+        "permissionName": "Delete User",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "post/admin/addDriver",
+        "alias": "addDriver",
+        "permissionName": "Add Driver",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "put/admin/updateDriver",
+        "alias": "updateDriverByAdmin",
+        "permissionName": "Update Driver",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "get/admin/getAllAvailabeBooking",
+        "alias": "getAllAvailableBookingByAdmin",
+        "permissionName": "Get all available Bookings",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "get/admin/getAllUsers",
+        "alias": "getAllUsers",
+        "permissionName": "Get all users",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "get/admin/getBookingDetails",
+        "alias": "getBookingDetailsByAdmin",
+        "permissionName": "Get Booking details",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "get/admin/getDashboardCount",
+        "alias": "getDashboardCount",
+        "permissionName": "Get Dashboard Count",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "get/admin/getOngoingBooking",
+        "alias": "getOngoingBookingByAdmin",
+        "permissionName": "Get Ongoing Booking",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "get/admin/getPastBooking",
+        "alias": "getPastBookingByAdmin",
+        "permissionName": "Get Past Booking",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "post/admin/addServiceProvider",
+        "alias": "addServiceProvider",
+        "permissionName": "Add Service Provider",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "put/admin/updateServiceProvider",
+        "alias": "updateServiceProviderByAdmin",
+        "permissionName": "Update Service Provider",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "post/admin/setDefaultSettings",
+        "alias": "setDefaultSettings",
+        "permissionName": "Set default settings",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "get/admin/listDefaultSettings",
+        "alias": "listDefaultSettings",
+        "permissionName": "Set default settings",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "get/admin/userDetails",
+        "alias": "getUserDetails",
+        "permissionName": "Get user details",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "put/admin/verifyUser",
+        "alias": "verifyUser",
+        "permissionName": "Verify user",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "post/user/accessTokenLogin",
+        "alias": "accessTokenLogin",
+        "permissionName": "Login with access token",
+        "roleAccess": [
+            {
+                "role": "customer",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "put/user/addPhoneNumber",
+        "alias": "addPhoneNumber",
+        "permissionName": "Add phone number",
+        "roleAccess": [
+            {
+                "role": "customer",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "put/user/changePassword",
+        "alias": "changePassword",
+        "permissionName": "Change Password",
+        "roleAccess": [
+            {
+                "role": "customer",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "put/user/contactUs",
+        "alias": "contactUs",
+        "permissionName": "Contact us",
+        "roleAccess": [
+            {
+                "role": "customer",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "delete/user/deletePhoneNumber",
+        "alias": "deletePhoneNumber",
+        "permissionName": "Delete phone number",
+        "roleAccess": [
+            {
+                "role": "customer",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "get/user/getReferralBenifitsHistory",
+        "alias": "referralBenifitsHistory",
+        "permissionName": "Referral Benefit History",
+        "roleAccess": [
+            {
+                "role": "customer",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "get/user/getReferralCode",
+        "alias": "referralCode",
+        "permissionName": "Referral Code",
+        "roleAccess": [
+            {
+                "role": "customer",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "get/user/getWallet",
+        "alias": "userWallet",
+        "permissionName": "User wallet",
+        "roleAccess": [
+            {
+                "role": "customer",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "post/user/logout",
+        "alias": "logout",
+        "permissionName": "Logout",
+        "roleAccess": [
+            {
+                "role": "customer",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "put/user/resendEmail",
+        "alias": "resendEmail",
+        "permissionName": "Resend Email",
+        "roleAccess": [
+            {
+                "role": "customer",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "put/user/resendOTP",
+        "alias": "resendOTP",
+        "permissionName": "Resend OTP",
+        "roleAccess": [
+            {
+                "role": "customer",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "put/user/setPrimaryNumber",
+        "alias": "setPrimaryNumber",
+        "permissionName": "Set Primary Number",
+        "roleAccess": [
+            {
+                "role": "customer",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "put/user/updateDeviceToken",
+        "alias": "updateDeviceToken",
+        "permissionName": "Update device token",
+        "roleAccess": [
+            {
+                "role": "customer",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "put/user/updatePhoneNumber",
+        "alias": "updatePhoneNumber",
+        "permissionName": "Update Phone Number",
+        "roleAccess": [
+            {
+                "role": "customer",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "put/user/updateUTCoffset",
+        "alias": "updateUTCoffset",
+        "permissionName": "Update UTC offset",
+        "roleAccess": [
+            {
+                "role": "customer",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "put/user/verifyMobileOTP",
+        "alias": "verifyMobileOTP",
+        "permissionName": "verify mobile OTP",
+        "roleAccess": [
+            {
+                "role": "customer",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "post/appVersion/setAppVersions",
+        "alias": "setAppVersion",
+        "permissionName": "Set App Versions",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "post/authorization/addPermission",
+        "alias": "addPermissions",
+        "permissionName": "Add new permission or override the old",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "get/authorization/getAllPermissions",
+        "alias": "getAllPermissions",
+        "permissionName": "Get all permissions",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "get/authorization/getPermission",
+        "alias": "getPermission",
+        "permissionName": "permissions of specific path",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "get/authorization/specificRolePermission",
+        "alias": "addNewRolePermission",
+        "permissionName": "Give permissions to new role",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "post/bookingAssignment/bookingFloatSetting",
+        "alias": "roundSetting",
+        "permissionName": "Add round settings for booking float",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "put/bookingAssignment/updateBookingFloatSetting",
+        "alias": "updateRoundSetting",
+        "permissionName": "Add round settings for booking float",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "get/bookingAssignment/listBookingFloatSetting",
+        "alias": "listRoundSetting",
+        "permissionName": "Add round settings for booking float",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "get/customer/availableServiceProvider",
+        "alias": "availableServiceProvider",
+        "permissionName": "available service provider for customer",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "customer",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "put/booking/cancelBooking",
+        "alias": "cancelBooking",
+        "permissionName": "Cancel booking by users",
+        "roleAccess": [
+            {
+                "role": "customer",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "post/booking/createBooking",
+        "alias": "createBooking",
+        "permissionName": "Create Booking",
+        "roleAccess": [
+            {
+                "role": "customer",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "get/booking/getAllAvailabeBooking",
+        "alias": "getAllAvailableBooking",
+        "permissionName": "All Available Bookings",
+        "roleAccess": [
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "get/booking/getAllBids",
+        "alias": "getAllBids",
+        "permissionName": "All Bids of Booking",
+        "roleAccess": [
+            {
+                "role": "customer",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "get/booking/getBookingDetails",
+        "alias": "getBookingDetails",
+        "permissionName": "Booking details",
+        "roleAccess": [
+            {
+                "role": "customer",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "get/booking/getOngoingBooking",
+        "alias": "getOngoingBooking",
+        "permissionName": "Ongoing Bookings",
+        "roleAccess": [
+            {
+                "role": "customer",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "get/booking/getPastBooking",
+        "alias": "getPastBooking",
+        "permissionName": "Past Bookings",
+        "roleAccess": [
+            {
+                "role": "customer",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "post/booking/makeBidByDriver",
+        "alias": "makeBidByDriver",
+        "permissionName": "Bid on Booking",
+        "roleAccess": [
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "put/booking/selectBidByCustomer",
+        "alias": "selectBidByCustomer",
+        "permissionName": "Accept Bid",
+        "roleAccess": [
+            {
+                "role": "customer",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "get/booking/getBookingRoute",
+        "alias": "getBookingRoute",
+        "permissionName": "Booking Route",
+        "roleAccess": [
+            {
+                "role": "customer",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "post/tracking/enrouteDriver",
+        "alias": "driverRouting",
+        "permissionName": "driver location update",
+        "roleAccess": [
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "get/tracking/getUserTrackingData",
+        "alias": "userTrackingData",
+        "permissionName": "Driver tracking history",
+        "roleAccess": [
+            {
+                "role": "customer",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "post/tracking/uploadTrackFiletoS3",
+        "alias": "uploadTrackToS3",
+        "permissionName": "Upload Track history to S3",
+        "roleAccess": [
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "post/review/giveReviewAndRating",
+        "alias": "giveReviewAndRating",
+        "permissionName": "Give Review and Rating",
+        "roleAccess": [
+            {
+                "role": "customer",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "get/review/listAverageRating",
+        "alias": "averageRating",
+        "permissionName": "Average user rating",
+        "roleAccess": [
+            {
+                "role": "customer",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "post/review/listDetailedReview",
+        "alias": "detailedReview",
+        "permissionName": "Detailed Review",
+        "roleAccess": [
+            {
+                "role": "customer",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "post/comment/addComment",
+        "alias": "addComment",
+        "permissionName": "Add Comment",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "customer",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "post/comment/createTestEntity",
+        "alias": "createTestEntity",
+        "permissionName": "Add Test Entity",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "customer",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "delete/comment/deleteComment",
+        "alias": "deleteComment",
+        "permissionName": "Delete Comment",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "customer",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "get/comment/getCommentsForEntity",
+        "alias": "commentsOnEntity",
+        "permissionName": "Comments on Entity",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "customer",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "get/comment/getReplyOnComment",
+        "alias": "replyOnComment",
+        "permissionName": "Reply on Comment",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "customer",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "post/driver/addVehicle",
+        "alias": "addVehicle",
+        "permissionName": "Add Vehicle",
+        "roleAccess": [
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "delete/driver/deleteVehicle",
+        "alias": "deleteVehicle",
+        "permissionName": "Delete Vehicle",
+        "roleAccess": [
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "get/driver/getVehicleDetails",
+        "alias": "vehicleDetails",
+        "permissionName": "Vehicle Details",
+        "roleAccess": [
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "customer",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "get/driver/listVehicleTypeAndCompany",
+        "alias": "listVehicleTypeAndCompany",
+        "permissionName": "Vehicle type and company list",
+        "roleAccess": [
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "put/driver/updateBookingStatus",
+        "alias": "updateBookingStatus",
+        "permissionName": "Update Booking Status",
+        "roleAccess": [
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "put/driver/updateLocation",
+        "alias": "updateLocation",
+        "permissionName": "Update location",
+        "roleAccess": [
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "put/driver/updateProfile",
+        "alias": "updateDriver",
+        "permissionName": "Update Profile",
+        "roleAccess": [
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "post/matching/categoryAvailLocation",
+        "alias": "categoryAvailLocation",
+        "permissionName": "Category Location",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "get/matching/listAllCategoriesInRange",
+        "alias": "categoriesInRange",
+        "permissionName": "Categories in range",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "customer",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "get/matching/listAllCategoryLocations",
+        "alias": "listAllCategoryLocations",
+        "permissionName": "List categories location",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "post/matching/serviceAvailLocation",
+        "alias": "serviceAvailLocation",
+        "permissionName": "Service Location",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "get/matching/listAllServicesInRange",
+        "alias": "servicesInRange",
+        "permissionName": "Services in range",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "customer",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "get/matching/listAllServicesLocations",
+        "alias": "listAllServicesLocations",
+        "permissionName": "List services location",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "post/multilingual/addBackendMessages",
+        "alias": "addBackendMessages",
+        "permissionName": "add Backend messages",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "post/multilingual/addCustomMessage",
+        "alias": "addCustomMessage",
+        "permissionName": "Add custom message",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "post/multilingual/addLocale",
+        "alias": "add locale",
+        "permissionName": "Add new language",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "post/multilingual/addResourceBundle",
+        "alias": "addResourceBundle",
+        "permissionName": "Add resource bundle",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "put/multilingual/controlLocale",
+        "alias": "controlLocale",
+        "permissionName": "Enable disable language",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "post/promo/addPromo",
+        "alias": "addPromo",
+        "permissionName": "Add Promo",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "delete/promo/deletePromo",
+        "alias": "deletePromo",
+        "permissionName": "Delete Promo",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "get/promo/getAllUserPromo",
+        "alias": "allUserPromo",
+        "permissionName": "User available promo",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "customer",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "get/promo/listAllPromo",
+        "alias": "listAllPromo",
+        "permissionName": "All available promo",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "customer",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "get/promo/promoDetails",
+        "alias": "promoDetails",
+        "permissionName": "Promo Details",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "customer",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "get/promo/promoDetails",
+        "alias": "promoDetails",
+        "permissionName": "Promo Details",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "customer",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "post/referral/addReferralScheme",
+        "alias": "referralScheme",
+        "permissionName": "Referral Scheme",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "post/referral/addReferralSchemeType",
+        "alias": "referralSchemeType",
+        "permissionName": "Referral Scheme type",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "delete/referral/deleteReferral",
+        "alias": "deleteReferral",
+        "permissionName": "Delete Referral Scheme",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "get/referral/listAllReferral",
+        "alias": "allReferral",
+        "permissionName": "All Referrals",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "post/Schedule/addSchedule",
+        "alias": "addSchedule",
+        "permissionName": "Add Schedule",
+        "roleAccess": [
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "get/Schedule/getAllSchedule",
+        "alias": "allSchedule",
+        "permissionName": "All Schedule",
+        "roleAccess": [
+            {
+                "role": "customer",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "post/Schedule/toggleAvailability",
+        "alias": "toggleAvailability",
+        "permissionName": "Toggle Availability",
+        "roleAccess": [
+            {
+                "role": "customer",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "put/Schedule/updateSchedule",
+        "alias": "updateSchedule",
+        "permissionName": "update schedule",
+        "roleAccess": [
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "get/role/getAllRoles",
+        "alias": "allRoles",
+        "permissionName": "All Roles",
+        "roleAccess": [
+            {
+                "role": "customer",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "post/service/addCategory",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "post/service/addService",
+        "alias": "addService",
+        "permissionName": "Add Service",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "delete/service/deleteCategory",
+        "alias": "deleteCategory",
+        "permissionName": "Delete Category",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "delete/service/deleteService",
+        "alias": "deleteService",
+        "permissionName": "Delete Service",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "get/service/getAllCategory",
+        "alias": "getAllCategory",
+        "permissionName": "All Category",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "customer",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "get/service/listAllService",
+        "alias": "allServices",
+        "permissionName": "All Services",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "customer",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "put/service/updateCategory",
+        "alias": "updateCategory",
+        "permissionName": "Update Category",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "put/service/updateService",
+        "alias": "updateService",
+        "permissionName": "Update Service",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "put/notification/clearNotification",
+        "alias": "clearNotification",
+        "permissionName": "Clear Notification",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "customer",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "get/notification/getAllNotification",
+        "alias": "allNotification",
+        "permissionName": "All Notifications",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "customer",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "put/notification/readNotification",
+        "alias": "readNotification",
+        "permissionName": "Read Notification",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "customer",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "put/customer/driverSearch",
+        "alias": "driverSearch",
+        "permissionName": "Driver Search",
+        "roleAccess": [
+            {
+                "role": "customer",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "put/customer/updateProfile",
+        "alias": "updateCustomer",
+        "permissionName": "Update Profile Customer",
+        "roleAccess": [
+            {
+                "role": "customer",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "post/like/likeOrUnlikeComment",
+        "alias": "likeOrUnlikeComment",
+        "permissionName": "Like or Unlike Comment",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "customer",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "post/rateLimit/setIPAttempt",
+        "alias": "setIPAttempt",
+        "permissionName": "Set IP Attempts",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "put/booking/bookingAcceptReject",
+        "alias": "bookingAcceptReject",
+        "permissionName": "Accept or Reject Booking",
+        "roleAccess": [
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "driver",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "put/booking/assignBookingManually",
+        "alias": "assignBookingManually",
+        "permissionName": "Assign booking manually",
+        "roleAccess": [
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "get/customer/bookingAddresses",
+        "alias": "bookingAddresses",
+        "permissionName": "list of customer booking addresses",
+        "roleAccess": [
+            {
+                "role": "customer",
+                "completeAccess": true,
+                "objectRights": []
+            },
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "put/serviceProvider/updateDriver",
+        "alias": "updateDriverRegisterBySP",
+        "permissionName": "Update Driver By SP",
+        "roleAccess": [
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "get/serviceProvider/getDashboardCount",
+        "alias": "dashboardCountForSP",
+        "permissionName": "Dashboard count for service provider",
+        "roleAccess": [
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "put/serviceProvider/registerForService",
+        "alias": "registerForService",
+        "roleAccess": [
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "put/serviceProvider/updateProfile",
+        "alias": "updateServiceProvider",
+        "permissionName": "Update service provider",
+        "roleAccess": [
+            {
+                "role": "admin",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "post/twilio/customerVoiceCall",
+        "alias": "customerVoiceCall",
+        "permissionName": "Call by customer",
+        "roleAccess": [
+            {
+                "role": "customer",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    },
+    {
+        "uniqueApiPath": "post/twilio/supplierVoiceCall",
+        "alias": "supplierVoiceCall",
+        "permissionName": "Call by Service Provider",
+        "roleAccess": [
+            {
+                "role": "serviceProvider",
+                "completeAccess": true,
+                "objectRights": []
+            }
+        ],
+        "allowedToUpdate": [
+            "admin"
+        ]
+    }
+]

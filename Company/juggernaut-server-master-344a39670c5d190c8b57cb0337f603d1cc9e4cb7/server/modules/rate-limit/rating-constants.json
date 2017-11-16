@@ -1,0 +1,1 @@
+{"enabled":true,"userCache":{"segment":"hapi-rate-limit-user"},"pathCache":{"segment":"hapi-rate-limit-path"}}
