@@ -33,12 +33,7 @@ server.register(require('inert'), (err) => {
         server.route({
             method: 'POST',
             path: '/search_process',
-            config: {
-                payload: {
-                    output: 'data'
-                }
-            },
-            handler: async function (request, reply) {
+            handler: function (request, reply) {
                 var data=request.payload.name;
                 client.lrange(data, 0, -1, function (error, items) {
                     if (error) throw error;
@@ -48,6 +43,7 @@ server.register(require('inert'), (err) => {
                         reply(items);  
                     }
                     else{
+                        console.log("Data not found in rediss ");
                         MongoClient.connect(url, function(err, db) {
                             if (err) throw err;
                             console.log("Searching DataBase");
@@ -63,19 +59,17 @@ server.register(require('inert'), (err) => {
                                         console.log("Data added to redis");
                                         
                                     });
-                                  });
+                                });
                                  
-                                  reply(result);
+                                reply(result);
                               }
                               else reply("Not found user ");
                           
                             });
                         }); 
-                        
 
                     }        
-                       
-                     
+                  
                 });
                 
                 
