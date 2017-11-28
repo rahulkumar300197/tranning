@@ -20,6 +20,7 @@
 "E"                   return 'E'
 <<EOF>>               return 'EOF'
 .                     return 'INVALID'
+show                  return 'SHOW'
 
 /lex
 
