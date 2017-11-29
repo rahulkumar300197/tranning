@@ -1,8 +1,9 @@
 
 var exec = require('child_process').exec;
+var timezonelist = require('./TimeZoneOfsetList'); 
+//console.log(timezonelist);
 var interval;
-var backup = function(time) {
-  console.log("1");
+function calculateUtc(){
   var date = new Date();
   var minutes = date.getMinutes()/60;
   var hours = date.getHours()+minutes;
@@ -14,13 +15,20 @@ var backup = function(time) {
   else if(utc<0){
     utc+=24; 
   }
-  if(time == utc){
+  return utc;
+}
+var backup = function(time,timezone) {
+
+  var utc = calculateUtc();
+  var currenttime= utc-timezonelist[timezone];
+ // console.log(currenttime);
+  if(time == currenttime){
     clearInterval(interval);  
     console.log("Backup Started");  
     var child = exec("sudo ./dbbackup.sh", function (error, stdout, stderr) {
       console.log('stdout: ' + stdout);
       console.log('stderr: ' + stderr);
-      interval = setInterval(backup, 1000,18.5); // 18.5 is utc for 00:00 in india
+      setTimeout(function (){interval = setInterval(backup, 1000,24,"Asia/Kolkata");}, 60000); // 24 is 00:00
       if(error !== null) {
         console.log('exec error: ' + error);
       }
@@ -30,4 +38,5 @@ var backup = function(time) {
   
 
 }
-interval = setInterval(backup, 1000,18.5);    // 18.5 is utc for 00:00 in india
+
+interval = setInterval(backup, 1000,24,"Asia/Kolkata");    // 24 is 00:00 
